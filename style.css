@@ -70,3 +70,30 @@
    font-size: 1.3rem;
    background-color: rgb(255, 187, 0);
 }
+.country {
+    display: flex;
+    align-items: center;
+    height: 45px;
+    width: 45px;
+ 
+}
+.search-countr {
+    background-color: black;
+    color:white;
+    display: flex;
+    align-items: center;
+}
+span {
+    font-size: 0.65rem;
+}
+p {
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+.nav-cart i {
+    font-size: 30px;
+}
+.nav-cart {
+    font-size: 0.85rem;
+    font-weight: 400;
+}

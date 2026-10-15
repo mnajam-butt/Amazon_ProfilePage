@@ -97,3 +97,19 @@ p {
     font-size: 0.85rem;
     font-weight: 400;
 }
+.panel {
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    color: white;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.panel-ops p {
+    display: inline;
+    margin-left: 15px;
+}
+.panel-ops {
+    width: 90%;
+    font-size: 0.85rem;
+}

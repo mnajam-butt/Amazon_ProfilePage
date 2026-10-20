@@ -241,3 +241,160 @@ a {
     text-transform:capitalize;
     text-decoration: none;
 }
+/* ---- Responsive (sirf yeh neeche add hua hai) ---- */
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+img {
+    max-width: 100%;
+}
+@media (max-width: 1024px) {
+    .nav-search {
+        width: 360px;
+    }
+    .add-first {
+        margin-left: 5px;
+    }
+    .box {
+        width: 31%;
+        height: 360px;
+    }
+    .box-image {
+        height: 240px;
+    }
+    .foot-panel2 ul {
+        margin: 15px;
+    }
+}
+@media (max-width: 820px) {
+    .navbar {
+        height: auto;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 8px 10px;
+        row-gap: 8px;
+    }
+    .navbar > * {
+        flex-shrink: 0;
+    }
+    .nav-logo,
+    .nav-logo:hover {
+        width: 90px;
+        height: 45px;
+    }
+    .logo,
+    .logo:hover {
+        height: 45px;
+        width: 100%;
+    }
+    .nav-search {
+        order: 10;
+        flex: 0 0 100%;
+        width: 100%;
+    }
+    .search-input {
+        min-width: 0;
+    }
+    .panel {
+        justify-content: flex-start;
+        overflow-x: auto;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+    }
+    .panel-ops {
+        width: auto;
+        padding-right: 15px;
+        white-space: nowrap;
+    }
+    .panel > * {
+        flex-shrink: 0;
+    }
+    .hero-section {
+        height: 260px;
+    }
+    .hero-msg {
+        width: 92%;
+        height: auto;
+        min-height: 40px;
+        padding: 8px 10px;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    .box {
+        width: 46%;
+        height: auto;
+        min-height: 340px;
+    }
+    .box-image {
+        height: 220px;
+        background-position: center;
+    }
+    .foot-panel2 {
+        height: auto;
+        padding-bottom: 15px;
+    }
+    .foot-panel2 ul {
+        margin: 15px 10px;
+    }
+    .foot-Panel3 {
+        height: auto;
+        padding: 15px 0;
+    }
+    .foot-panel4 {
+        height: auto;
+        padding-bottom: 15px;
+    }
+}
+@media (max-width: 560px) {
+    .navbar {
+        padding: 8px 6px;
+    }
+    .nav-logo,
+    .nav-logo:hover {
+        width: 75px;
+        height: 38px;
+    }
+    .logo,
+    .logo:hover {
+        height: 38px;
+    }
+    .add-first {
+        font-size: 0.7rem;
+    }
+    .add-second {
+        font-size: 0.85rem;
+    }
+    .nav-cart i {
+        font-size: 24px;
+    }
+    .nav-search {
+        height: 38px;
+    }
+    .search-input {
+        font-size: 0.9rem;
+    }
+    .hero-section {
+        height: 190px;
+    }
+    .hero-msg {
+        font-size: 0.75rem;
+    }
+    .box {
+        width: 94%;
+        min-height: 0;
+    }
+    .box-image {
+        height: 260px;
+        margin-right: 0;
+    }
+    .foot-panel2 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+        padding: 5px 0 15px;
+    }
+    .foot-panel2 ul {
+        margin: 12px 10px;
+    }
+}
